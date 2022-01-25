@@ -1,0 +1,16 @@
+{
+  "name": "Akamai HMAC Token Tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ingo Eichhorst",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "akamai-auth-token": "1.0.7",
+    "crypto-js": "4.1.1",
+    "fastify": "3.27.0"
+  }
+}
