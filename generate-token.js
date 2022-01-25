@@ -1,4 +1,4 @@
-const Akamai = require('akamai-auth-token');
+const Akamai = require('akamai-auth-token')
 
 /**
  * Generate a HMAC token
@@ -19,7 +19,7 @@ module.exports = (config) => {
     encoding: false
   };
 
-  const akamai = new Akamai.default(configObject);
-  const token = akamai.generateToken();
+  const akamai = new Akamai.default(configObject)
+  const token = akamai.generateToken()
   return token
 }

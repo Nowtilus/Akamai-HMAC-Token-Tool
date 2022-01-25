@@ -9,8 +9,8 @@ const CryptoJS = require('crypto-js')
  * @param {Object} obj
  * @returns {Object}
  */
-function interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const Crypt = interopRequireDefault(require('./crypt'));
+function interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj } }
+const Crypt = interopRequireDefault(require('./crypt'))
 
 /**
  * HEX to binary
