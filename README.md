@@ -19,7 +19,7 @@ Reference:
 Open a new directory ond clone the git repository.
 
 ```bash
-git clone 
+git clone https://github.com/Nowtilus/Akamai-HMAC-Token-Tool.git
 ```
 
 ### Generate a token
